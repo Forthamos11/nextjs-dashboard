@@ -18,7 +18,7 @@ export async function fetchRevenue() {
 
     // console.log('Fetching revenue data...');
     // await new Promise((resolve) => setTimeout(resolve, 3000));
-
+    // why dont you sort months by actual order you peace of shit??????
     const data = await sql<Revenue[]>`SELECT * FROM revenue`;
 
     // console.log('Data fetch completed after 3 seconds.');
